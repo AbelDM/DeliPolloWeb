@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin:500,600,700,400italic,500italic,600italic);
+/* line 7, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+body {
+  font-family: "Cabin", sans-serif; }
+
+/* line 10, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+main {
+  padding: 60px 0px; }
+
+/* line 38, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+#producto {
+  padding: 50px 0px; }
+  /* line 14, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+  #producto .titulo {
+    text-align: center; }
+    /* line 16, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+    #producto .titulo h2 {
+      font-size: 40px;
+      font-family: "Cabin", sans-serif;
+      text-transform: uppercase;
+      font-weight: 700; }
+    /* line 22, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+    #producto .titulo .hr {
+      max-width: 70px;
+      padding: 0;
+      border-style: solid;
+      border-width: 4px 0 0 0;
+      text-align: center;
+      clear: left;
+      display: block;
+      color: #18BC9C;
+      height: 0;
+      margin: 0px auto 20px auto;
+      width: 100%; }
+  /* line 42, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+  #producto .thumbnail .detalles {
+    position: absolute;
+    background: rgba(24, 188, 156, 0.55);
+    width: 60px;
+    height: 60px;
+    bottom: 126px;
+    right: 16px;
+    padding: 14px; }
+    /* line 50, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+    #producto .thumbnail .detalles a {
+      font-size: 26px;
+      color: #fff; }
+  /* line 58, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+  #producto .thumbnail .caption a:hover {
+    text-decoration: none; }
+  /* line 62, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+  #producto .thumbnail .caption .precio {
+    font-weight: 400;
+    font-family: "Cabin", sans-serif; }
+
+/* line 70, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+#carrito-compras {
+  padding: 50px 0px; }
+
+/* line 73, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+#ver-detalle {
+  padding: 50px 0px; }
+  /* line 75, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+  #ver-detalle ul {
+    list-style: none; }
+    /* line 77, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+    #ver-detalle ul li {
+      display: inline-block;
+      margin-left: 10px; }
+      /* line 80, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+      #ver-detalle ul li a {
+        color: #fff;
+        padding: 4px 10px;
+        border-radius: 50%;
+        display: inline-table;
+        width: 35px;
+        height: 35px;
+        font-size: 17px;
+        transition: all 0.3s ease-out; }
+      /* line 90, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+      #ver-detalle ul li a#facebook {
+        background: #133591;
+        border: 2px solid #133591; }
+        /* line 93, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+        #ver-detalle ul li a#facebook:hover {
+          background: #fff;
+          border: 2px solid #133591;
+          color: #133591;
+          transform: scale(1) rotate(360deg) translate(0px);
+          -webkit-transform: scale(1) rotate(360deg) translate(0px); }
+      /* line 101, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+      #ver-detalle ul li a#twitter {
+        background: #319cea;
+        border: 2px solid  #319cea; }
+        /* line 104, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+        #ver-detalle ul li a#twitter:hover {
+          background: #fff;
+          border: 2px solid #319cea;
+          color: #319cea;
+          transform: scale(1) rotate(360deg) translate(0px);
+          -webkit-transform: scale(1) rotate(360deg) translate(0px); }
+      /* line 112, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+      #ver-detalle ul li a#youtube {
+        background: #e61818;
+        border: 2px solid #e61818; }
+        /* line 115, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+        #ver-detalle ul li a#youtube:hover {
+          background: #fff;
+          border: 2px solid #e61818;
+          color: #e61818;
+          transform: scale(1) rotate(360deg) translate(0px);
+          -webkit-transform: scale(1) rotate(360deg) translate(0px); }
+  /* line 126, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+  #ver-detalle .contenido h2 {
+    color: #181653;
+    font-size: 40px;
+    text-transform: uppercase; }
+  /* line 131, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+  #ver-detalle .contenido span {
+    font-weight: bold;
+    font-size: 17px; }
+  /* line 135, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+  #ver-detalle .contenido p {
+    line-height: 25px;
+    margin-top: 10px;
+    font-size: 15px; }
+  /* line 140, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+  #ver-detalle .contenido .precio {
+    display: table;
+    margin: 0 0 10px 0;
+    padding: 0 10px 0 0;
+    height: 32px; }
+    /* line 145, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+    #ver-detalle .contenido .precio label {
+      color: #787878;
+      display: table-cell;
+      font-size: 14px;
+      height: 100%;
+      vertical-align: middle;
+      width: 70px; }
+    /* line 153, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+    #ver-detalle .contenido .precio p {
+      color: #158cba;
+      display: table-cell;
+      padding: 0 0 0 5px;
+      font-size: 25px;
+      height: 100%;
+      line-height: 1em;
+      vertical-align: middle;
+      width: 175px; }
+
+/* line 166, F:/xampp/htdocs/proyectos/eytoocarrito/css/estilos.scss */
+.jumbotron {
+  background-image: url("../img/banner-1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff; }
+
+/*# sourceMappingURL=estilos.css.map */

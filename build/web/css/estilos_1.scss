@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin:500,600,700,400italic,500italic,600italic);
+$cabin:'Cabin', sans-serif;
+$verde:#18BC9C;
+$blanco:#fff;
+$face:#133591;
+$celeste:#158cba;
+body{
+    font-family: $cabin;
+}
+main{
+    padding: 60px 0px;
+}
+@mixin titulo{
+    .titulo{
+        text-align: center;
+        h2{
+            font-size: 40px;
+            font-family: $cabin;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        .hr{
+            max-width: 70px;
+            padding: 0;
+            border-style: solid;
+            border-width: 4px 0 0 0;
+            text-align: center;
+            clear: left;
+            display: block;
+            color: $verde;
+            height: 0;
+            margin: 0px auto 20px auto;
+            width: 100%;
+        }
+    }
+    
+}
+#producto{
+    padding: 50px 0px;
+    @include titulo;
+    .thumbnail{     
+        .detalles{
+            position: absolute;
+            background: rgba(24, 188, 156, 0.55);
+            width: 60px;
+            height: 60px;
+            bottom: 126px;
+            right: 16px;
+            padding: 14px;            
+            a{
+                font-size: 26px;
+                color: $blanco;
+            }
+        }
+        .caption{
+            a{
+                
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+            .precio{
+                font-weight: 400;
+                font-family: $cabin;
+            }
+            
+        }
+    }
+}
+#carrito-compras{
+    padding: 50px 0px;
+}
+#ver-detalle{
+    padding: 50px 0px;
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            margin-left: 10px;
+            a{
+                color: $blanco;
+                padding: 4px 10px;
+                border-radius: 50%;
+                display: inline-table;
+                width: 35px;
+                height: 35px;
+                font-size: 17px;                
+                transition: all 0.3s ease-out;
+            }
+            a#facebook{
+                background: $face;  
+                border: 2px solid $face;
+                &:hover{
+                    background: $blanco;
+                    border: 2px solid $face;
+                    color: $face;
+                    transform: scale(1) rotate(360deg) translate(0px);
+                    -webkit-transform: scale(1) rotate(360deg) translate(0px);
+                }
+            }
+            a#twitter{
+                background: #319cea;
+                border: 2px solid  #319cea;
+                &:hover{
+                    background: $blanco;
+                    border: 2px solid #319cea;
+                    color: #319cea;
+                    transform: scale(1) rotate(360deg) translate(0px);
+                    -webkit-transform: scale(1) rotate(360deg) translate(0px);
+                }
+            }
+            a#youtube{
+                background: #e61818;
+                border: 2px solid #e61818;
+                &:hover{
+                    background: $blanco;
+                    border: 2px solid #e61818;
+                    color: #e61818;
+                    transform: scale(1) rotate(360deg) translate(0px);
+                    -webkit-transform: scale(1) rotate(360deg) translate(0px);
+                }
+            }
+        }
+    }
+    .contenido{
+        h2{
+            color: #181653;
+            font-size: 40px;
+            text-transform: uppercase;
+        }
+        span{
+            font-weight: bold;
+            font-size: 17px;
+        }
+        p{
+            line-height: 25px;
+            margin-top: 10px;
+            font-size: 15px;
+        }
+        .precio{
+            display: table;            
+            margin: 0 0 10px 0;
+            padding: 0 10px 0 0;
+            height: 32px;        
+            label{
+                color: #787878;
+                display: table-cell;                
+                font-size: 14px;
+                height: 100%;
+                vertical-align: middle;
+                width: 70px;
+            }
+            p{
+                color: $celeste;
+                display: table-cell;
+                padding: 0 0 0 5px;
+                font-size: 25px;
+                height: 100%;
+                line-height: 1em;
+                vertical-align: middle;
+                width: 175px;
+            }
+        }
+    }
+}
+.jumbotron{
+    background-image: url("../img/banner-1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    color: $blanco;
+}
